@@ -34,7 +34,7 @@ public class SmsSender {
     }
 
     public static void main(String[] args) {
-        boolean send = send("hello sms!", "17316290556");
+        boolean send = send("hello sms!", "");
         System.out.println("发送状态："+send);
     }
 }
